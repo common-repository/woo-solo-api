@@ -1,0 +1,14 @@
+{
+  "assets/dev/application.css": {
+    "file": "assets/application-b79a819c.css",
+    "src": "assets/dev/application.css"
+  },
+  "assets/dev/application.jsx": {
+    "css": [
+      "assets/application-b79a819c.css"
+    ],
+    "file": "assets/application-3c3a54ba.js",
+    "isEntry": true,
+    "src": "assets/dev/application.jsx"
+  }
+}

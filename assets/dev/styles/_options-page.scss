@@ -1,0 +1,39 @@
+/* stylelint-disable declaration-colon-newline-after */
+.options-wrapper {
+	background: var(--woo-white-color);
+	border-bottom: 1px solid var(--woo-silver-color);
+	border-left: 1px solid var(--woo-silver-color);
+	border-right: 1px solid var(--woo-silver-color);
+	padding-bottom: 1.25rem;
+
+	&--separated {
+		margin-top: 1.25rem;
+		padding-bottom: 0;
+	}
+
+	&__item {
+		margin: 1.25rem 1.25rem 0;
+
+	}
+
+	.components-snackbar {
+		margin-top: 1.25rem;
+
+		&.is-hidden {
+			opacity: 0;
+			transition: all 250ms linear;
+		}
+
+		&.is-visible {
+			opacity: 1;
+			transition: all 250ms linear;
+		}
+	}
+
+	&.is-loading {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1.25rem;
+	}
+}
